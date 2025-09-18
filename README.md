@@ -1,4 +1,7 @@
 # shortid-rs
+[![Crates.io](https://img.shields.io/crates/v/shortid-rs.svg)](https://crates.io/crates/shortid-rs)
+[![Docs.rs](https://docs.rs/shortid-rs/badge.svg)](https://docs.rs/shortid-rs)
+[![Build Status](https://github.com/yourname/shortid-rs/actions/workflows/ci.yml/badge.svg)](https://github.com/yourname/shortid-rs/actions)
 
 Generate short, human-friendly IDs derived from UUIDs with collision handling.  
 Great for games, simulations, or any system where raw UUIDs are too long and ugly to show users.

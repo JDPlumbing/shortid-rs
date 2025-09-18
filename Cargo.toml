@@ -1,0 +1,21 @@
+[package]
+name = "shortid-rs"
+version = "0.1.0"
+edition = "2021"
+description = "Generate short, human-friendly IDs derived from UUIDs with collision handling."
+license = "MIT"
+author = "JD Plumbing"
+repository = "https://github.com/JDPlumbing/shortid-rs"
+
+[dependencies]
+uuid = { version = "1", features = ["v4"] }
+rand = "0.8"
+sha2 = "0.10"
+
+
+[dev-dependencies]
+criterion = "0.5"
+
+[[bench]]
+name = "generate"
+harness = false
